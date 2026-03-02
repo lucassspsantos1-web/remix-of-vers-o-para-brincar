@@ -1,0 +1,1 @@
+ALTER TABLE public.service_history ADD COLUMN released_at timestamp with time zone DEFAULT NULL;
