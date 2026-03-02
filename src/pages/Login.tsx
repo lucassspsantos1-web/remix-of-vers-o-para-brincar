@@ -10,8 +10,8 @@ import NavBar from "@/components/NavBar";
 import { useToast } from "@/hooks/use-toast";
 
 export default function Login() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("adminlp13@filacarga");
+  const [password, setPassword] = useState("shopee3130");
   const [submitting, setSubmitting] = useState(false);
   const { signIn } = useAuth();
   const navigate = useNavigate();
